@@ -32,6 +32,7 @@ Large: 1.8
 #5E00D0
 
 - Shadows:
+#48197b
 #0D0B32
 #101828
 
@@ -77,4 +78,104 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #000;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.4rem;
+  background-color: #F8F3FD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover {
+  color: #5E00D0;
+}
+
+.navLink {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  /* transition: 0.8s; */
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: .6rem;
+  cursor: pointer;
+  /* transition: 0.8s; */
+}
+
+.btnSignIn {
+  background-color: inherit;
+}
+
+.btnSignIn:hover {
+  outline: 0.2rem solid #48197b;
+}
+
+.btnSignOut {
+  background-color: #60269E;
+  color: #fff;
+}
+
+.btnSignOut:hover {
+  background-color: #48197b;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.welcome {
+  margin-top: 10rem;
+  border: 0.1rem solid #60269E;
+  padding: 0.6rem 1.2rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.welcome2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #555;
 }
