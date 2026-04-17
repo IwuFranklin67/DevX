@@ -1,0 +1,225 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    font-size: 1.2rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .navLink {
+    gap: 1rem;
+  }
+
+  .btns {
+    display: flex;
+    gap: 0.2rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.2rem;
+  }
+
+  .btnSignIn:hover {
+    outline: 0.1rem solid #48197b;
+  }
+
+  .achievements {
+    padding: 3.2rem 6.4rem;
+  }
+
+  .achievementText {
+    font-size: 1.4rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .achievementsContainer {
+    gap: 3.2rem;
+  }
+
+  .achievement {
+    gap: 0.6rem;
+  }
+
+  .achievementImage {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .achievementItem {
+    gap: 0.2rem;
+  }
+
+  .achievementWriteUp {
+    letter-spacing: 0;
+  }
+
+  .description {
+    margin-top: 3rem;
+  }
+
+  .descriptionSect1 {
+    margin: 3rem 0;
+    gap: 6rem;
+  }
+
+  .descriptionText {
+    gap: 1.4rem;
+  }
+
+  .descriptionHeading {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .descriptionWriteUp {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .descriptionText p:first-of-type {
+    font-weight: 700;
+  }
+
+  .descriptionSect1Image {
+    height: 20rem;
+    width: 25rem;
+  }
+
+  .descriptionSect2 {
+    padding: 3rem 1.5rem;
+    display: none;
+  }
+
+  .article {
+    display: none;
+  }
+
+  .growth {
+    border-radius: 1.6rem;
+    padding: 6rem 8rem;
+    gap: 14rem;
+    margin-top: 8rem;
+  }
+
+  .growthContainer {
+    gap: 1.6rem;
+  }
+
+  .growthHeading {
+    font-size: 1.8rem;
+  }
+
+  .growthContainer p {
+    line-height: 1.1;
+    font-size: 1rem;
+  }
+
+  .btnGrowth {
+    outline: 0.15rem solid #fff;
+    padding: 1rem 2rem;
+  }
+
+  .growthImage {
+    height: 12rem;
+    height: 12rem;
+  }
+
+  .cardSection {
+    padding: 8rem 12rem;
+  }
+
+  .cardSectionText {
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .cardHeading {
+    font-size: 2.6rem;
+  }
+
+  .cardHeadingText {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .cards {
+    gap: 2rem;
+  }
+
+  .card {
+    padding: 0.6rem 1.2rem;
+  }
+
+  .card:hover {
+    transform: translateY(-0.5rem);
+  }
+
+  .cardImage {
+    height: 4.6rem;
+    width: 4.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .cardName {
+    margin-bottom: 0.2rem;
+    font-size: 1.2rem;
+  }
+
+  .cardNameDescription {
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+  }
+
+  .cardDecription {
+    line-height: 1.1;
+    font-size: 1.1rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .cardSocial {
+    gap: 1.6rem;
+  }
+
+  .cardSocial img {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .footer {
+    padding: 4rem 8rem 1rem;
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .footerTop {
+    gap: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .footerTopLeft {
+    gap: 1.4rem;
+  }
+
+  .footerLogo {
+    height: 3rem;
+    width: 10rem;
+  }
+
+  .footerTopLeft p {
+    line-height: 2rem;
+  }
+
+  .footerTopRight {
+    gap: 6rem;
+  }
+
+  .links,
+  .social,
+  .legal {
+    gap: 1.2rem;
+  }
+
+  /* Used trial & error method to determine the footer horizontal line because it's internal */
+  .footerLine {
+    width: 94rem;
+  }
+}
