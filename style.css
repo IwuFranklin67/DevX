@@ -375,6 +375,8 @@ body {
     #7a3dc5 90%
   );
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 2rem;
   padding: 8rem 10rem;
   gap: 20rem;
@@ -528,7 +530,7 @@ body {
 
 .footerLogo {
   height: 5rem;
-  width: 15rem;
+  width: 17rem;
 }
 
 .footerTopLeft p {
