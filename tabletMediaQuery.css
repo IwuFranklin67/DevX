@@ -22,6 +22,12 @@
     outline: 0.1rem solid #48197b;
   }
 
+  .intro {
+    min-height: 0;
+    margin-bottom: 5rem;
+    margin-top: 0;
+  }
+
   .achievements {
     padding: 3.2rem 6.4rem;
   }
