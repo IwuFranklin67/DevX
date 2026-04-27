@@ -1,4 +1,4 @@
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 568px) and (max-width: 850px) {
   .header {
     font-size: 1.2rem;
     padding: 0.4rem 0.8rem;
@@ -102,7 +102,7 @@
   .growth {
     border-radius: 1.6rem;
     padding: 6rem 8rem;
-    gap: 14rem;
+    gap: 4rem;
     margin-top: 8rem;
   }
 
@@ -111,7 +111,7 @@
   }
 
   .growthHeading {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .growthContainer p {
@@ -125,8 +125,8 @@
   }
 
   .growthImage {
-    height: 12rem;
-    height: 12rem;
+    height: 14rem;
+    width: 28rem;
   }
 
   .cardSection {
@@ -148,11 +148,15 @@
   }
 
   .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 
   .card {
-    padding: 0.6rem 1.2rem;
+    padding: 2rem;
+    width: 100%;
+    height: 20rem;
   }
 
   .card:hover {
@@ -192,7 +196,7 @@
 
   .footer {
     padding: 4rem 8rem 1rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     width: 100%;
   }
 
@@ -206,8 +210,8 @@
   }
 
   .footerLogo {
-    height: 3rem;
-    width: 10rem;
+    height: 2rem;
+    width: 7rem;
   }
 
   .footerTopLeft p {
@@ -226,6 +230,24 @@
 
   /* Used trial & error method to determine the footer horizontal line because it's internal */
   .footerLine {
-    width: 94rem;
+    width: 60.2rem;
+  }
+
+  .footerDown {
+    gap: 8rem;
+  }
+
+  .footerDownWriteup {
+    font-size: 1.2rem;
+  }
+
+  .footerDownSocials {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  .footerDownSocials img {
+    height: 1.6rem;
+    width: 1.6rem;
   }
 }
